@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+    background: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+
+    background: white;
+    width: 90%;
+    max-width: 500px;
+
+    padding: 25px;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+
+}
+
+
+h1 {
+
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e293b;
+
+}
+
+
+.input-container {
+
+    display: flex;
+    gap: 10px;
+
+}
+
+
+input {
+
+    flex: 1;
+
+    padding: 12px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+}
+
+
+button {
+
+    padding: 12px 18px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+
+}
+
+
+button:hover {
+
+    opacity: 0.85;
+
+}
+
+
+#saveBtn {
+
+    background: #16a34a;
+
+    width: 100%;
+
+}
+
+
+#clearBtn {
+
+    background: #dc2626;
+
+    width: 100%;
+
+}
+
+
+#taskCount {
+
+    margin-top: 15px;
+
+    font-weight: bold;
+
+    color: #475569;
+
+}
+
+
+
+ul {
+
+    list-style: none;
+
+    margin-top: 20px;
+
+}
+
+
+
+.Todo-items {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    background: #f8fafc;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+
+}
+
+
+
+.checkbox-element {
+
+    width: 18px;
+
+    height: 18px;
+
+}
+
+
+
+.label-element {
+
+    flex: 1;
+
+    font-size: 16px;
+
+    color: #334155;
+
+    word-break: break-word;
+
+}
+
+
+
+.styles {
+
+    text-decoration: line-through;
+
+    color: gray;
+
+}
+
+
+
+.delete-icon {
+
+    color: #dc2626;
+
+    cursor: pointer;
+
+    font-size: 18px;
+
+}
+
+
+
+.delete-icon:hover {
+
+    transform: scale(1.2);
+
+}
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:600px){
+
+
+    .container {
+
+        width: 95%;
+
+        padding: 20px;
+
+    }
+
+
+    .input-container {
+
+        flex-direction: column;
+
+    }
+
+
+    .input-container button {
+
+        width: 100%;
+
+        margin-top: 0;
+
+    }
+
+
+    h1 {
+
+        font-size: 26px;
+
+    }
+
+
+    .Todo-items {
+
+        font-size: 14px;
+
+    }
+
+
+}
