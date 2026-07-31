@@ -36,10 +36,6 @@ A simple and responsive Todo List application built using **HTML, CSS, and JavaS
 
 ## 📸 Screenshot
 
-> Add a screenshot of your application here.
-
-Example:
-
 ![Todo App Screenshot](screenshot.png)<img width="1920" height="1080" alt="Screenshot (193)" src="https://github.com/user-attachments/assets/16dd6a26-8ea4-4213-bf3a-2b4000d9ed67" />
 
 
